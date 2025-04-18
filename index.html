@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paralelní dimenze</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dimension-1">
+    <div class="parallax-container">
+        <div class="layer layer-bg" data-speed="0.1"></div>
+        <div class="layer layer-mid" data-speed="0.3"></div>
+        <div class="layer layer-front" data-speed="0.6"></div>
+        
+        <div class="content">
+            <h1 class="title">Paralelní dimenze</h1>
+            <p class="description">Pohybujte myší a objevujte skryté světy...</p>
+            
+            <div class="info-text">
+                <p>Tato experimentální stránka reaguje na váš pohyb. Prozkoumejte prostor a najděte portály do jiných dimenzí.</p>
+            </div>
+            
+            <div class="portal portal-1" data-destination="dimension2.html">
+                <span class="portal-label">Dimenze 2</span>
+            </div>
+            
+            <div class="portal portal-2" data-destination="dimension3.html">
+                <span class="portal-label">Dimenze 3</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="cursor-follower"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
